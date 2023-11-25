@@ -52,7 +52,7 @@ def get_conversation_chain(vector_store):
     
     # OpenAI Model
 
-    llm = ChatOpenAI()
+    llm = ChatOpenAI(openai_api_key="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")
 
     # HuggingFace Model
 
